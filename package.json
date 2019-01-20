@@ -12,7 +12,7 @@
     "lintfix": "npm run lint:eslint -- . --fix",
     "lint:eslint": "eslint",
     "lint:js": "npm run lint:eslint -- . ",
-    "db": "node -e 'require(\"./DB\").init()'"
+    "initDB": "node -e 'require(\"./DBScript\").init()'"
   },
   "license": "ISC",
   "dependencies": {
